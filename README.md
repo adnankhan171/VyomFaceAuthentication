@@ -50,6 +50,11 @@ To get the API running on your local machine for development or testing:
     docker build -t face-auth-api .
     docker run -p 5000:5000 face-auth-api
     ```
+8.  **How to use Api:**
+    ```image_url: provide db link of image,
+       image2: provide image in jpeg, png or jpg format,
+       request type: POST
+    ```
 
 ## Deployment to Google Cloud Run
 
